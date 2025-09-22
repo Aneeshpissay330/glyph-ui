@@ -10,9 +10,9 @@ export default defineConfig({
   build: {
     lib: {
       entry: resolve(__dirname, 'src/main.ts'),
-      name: 'ComponentsUI',
+      name: 'GlyphUI',
       formats: ['es', 'umd'],
-      fileName: (format) => `components-ui.${format}.js`
+      fileName: (format) => `glyph-ui.${format}.js`
     },
     rollupOptions: {
       external: ['react', 'react-dom'],
