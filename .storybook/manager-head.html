@@ -1,0 +1,8 @@
+<!-- .storybook/manager-head.html -->
+
+<style>
+/* Hide "Create a New Story" button via css because `disableSaveFromUI: true` doesn't work in the sidebar */
+.search-field + div:has(> button > svg) {
+  display: none !important;
+}
+</style>

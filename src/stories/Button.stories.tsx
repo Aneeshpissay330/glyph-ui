@@ -9,6 +9,7 @@ type StoryProps = ComponentProps<typeof Button>;
 const meta: Meta<StoryProps> = {
   title: "Components/Button",
   component: Button,
+  tags: ["autodocs"],
   args: {
     onClick: fn(),
   },
