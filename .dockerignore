@@ -1,0 +1,34 @@
+# Node dependencies
+node_modules
+npm-debug.log
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# Build outputs
+dist
+dist-ssr
+storybook-static
+
+# Local/dev files
+*.local
+*.log
+*.tmp
+*.sw?
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# Editor/OS files
+.vscode
+.idea
+.DS_Store
+
+# Git
+.git
+.gitignore
+
+# Docker file
+
+Dockerfile
