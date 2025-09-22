@@ -1,6 +1,6 @@
 {
   "name": "@Aneeshpissay330/glyph-ui",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "type": "module",
   "main": "dist/glyph-ui.js",
   "module": "dist/glyph-ui.es.js",
