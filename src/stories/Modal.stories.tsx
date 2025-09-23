@@ -8,6 +8,7 @@ import { TextInput } from "../components/TextInput";
 const meta: Meta<typeof Modal> = {
   title: "Components/Modal",
   component: Modal,
+  tags: ["autodocs"],
 };
 
 export default meta;
@@ -62,7 +63,12 @@ export const CustomStyles: Story = {
             You can override background, width and border radius via props.
           </p>
           <div className="flex justify-end gap-2">
-            <Button variant="outline" backgroundColor="#fff" color="#000" onClick={() => setOpen(false)}>
+            <Button
+              variant="outline"
+              backgroundColor="#fff"
+              color="#000"
+              onClick={() => setOpen(false)}
+            >
               Close
             </Button>
           </div>
@@ -83,7 +89,10 @@ export const WithForm: Story = {
 
         <Modal open={open} onClose={() => setOpen(false)}>
           <h3 className="text-lg font-semibold mb-4">Signup</h3>
-          <form className="gap-3 flex flex-col" onSubmit={(e) => e.preventDefault()}>
+          <form
+            className="gap-3 flex flex-col"
+            onSubmit={(e) => e.preventDefault()}
+          >
             <TextInput placeholder="Email" />
             <TextInput placeholder="Name" />
             <div className="flex justify-end gap-3">

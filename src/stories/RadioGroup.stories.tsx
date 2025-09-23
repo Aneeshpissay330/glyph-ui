@@ -6,6 +6,7 @@ import { RadioGroup } from "../components/RadioGroup";
 const meta: Meta<typeof RadioGroup> = {
   title: "Components/RadioGroup",
   component: RadioGroup,
+  tags: ["autodocs"],
   argTypes: {
     selectedColor: { control: "color" },
     selectedTextColor: { control: "color" },
@@ -32,7 +33,9 @@ export const Default: Story = {
             { value: "option3", label: "Option 3" },
           ]}
         />
-        <div style={{ marginTop: 12 }}>Current value: <strong>{value}</strong></div>
+        <div style={{ marginTop: 12 }}>
+          Current value: <strong>{value}</strong>
+        </div>
       </div>
     );
   },

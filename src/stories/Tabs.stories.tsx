@@ -1,11 +1,12 @@
 import type { Meta, StoryObj } from "@storybook/react";
+import { Home, Settings as SettingsIcon, User } from "lucide-react";
 import React from "react";
-import { Home, User, Settings as SettingsIcon } from "lucide-react";
 import { Tabs } from "../components/Tabs";
 
 const meta: Meta<typeof Tabs> = {
   title: "Components/Tabs",
   component: Tabs,
+  tags: ["autodocs"],
   argTypes: {
     activeBgColor: { control: "color" },
     activeTextColor: { control: "color" },
