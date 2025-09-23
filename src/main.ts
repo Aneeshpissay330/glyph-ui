@@ -8,6 +8,7 @@ export { IconButton } from "./components/IconButton";
 export { Menu } from "./components/Menu";
 export { Modal } from "./components/Modal";
 export { RadioGroup } from "./components/RadioGroup";
+export { Switch } from "./components/Switch";
 export { Tabs } from "./components/Tabs";
 export { TextArea } from "./components/TextArea";
 export { TextInput } from "./components/TextInput";
