@@ -20,7 +20,6 @@ jobs:
         with:
           path: ~./npm
           key: npm-deps-${{ hashFiles('**/package-lock.json') }}
-        key: ${{ runner.os }}-primes
       - name: Install dependencies
         run: npm install
       - name: Build storybook
